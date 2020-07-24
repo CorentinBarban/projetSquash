@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CalculatorTest {
 
     @Test
-    void addsTwoNumbers() {
+    public void addsTwoNumbers() {
         Calculator calculator = new Calculator();
         Assert.assertEquals(2, calculator.add(1, 1));
     }
