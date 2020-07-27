@@ -26,7 +26,17 @@
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.squashtest.ta.galaxia</groupId>
+            <artifactId>squash-tf-galaxia-annotations</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
     </dependencies>
-
-
+    <repositories>
+        <repository>
+            <id>org.squashtest.ta.release</id>
+            <name>squashtest test automation - releases</name>
+            <url>http://repo.squashtest.org/maven2/releases</url>
+        </repository>
+    </repositories>
 </project>
